@@ -1,6 +1,6 @@
 /*
- @Title  ws 消息定义
- @Description  请填写文件描述（需要改）
+ @Title  ws msg define
+ @Description
  @Author  Leo  2020/4/21 2:55 下午
  @Update  Leo  2020/4/21 2:55 下午
 */
@@ -9,9 +9,7 @@ package client
 
 const (
 
-	// 规则：双字节无符号整数，最大 2**16 = 65535, 奇数请求，偶数响应
-
-	// 心跳
+	// heartbeat
 	WSActionPing = "ping"
 	WSActionPong = "pong"
 
@@ -65,9 +63,3 @@ type ActionSub struct {
 	Action string `json:"action"`
 	Ch     string `json:"ch"`
 }
-
-//type UserSubResp struct {
-//	Action string `json:"action"`
-//	Code   int64  `json:"code"`
-//	Ch     string `json:"ch"`
-//}

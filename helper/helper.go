@@ -138,7 +138,6 @@ func (helper *Helper) OnError(cb func(int32,string)) {
 	helper.onError = cb
 }
 
-//"ws://127.0.0.1:8120/ws/v1"
 func (helper *Helper) RunWithAuth(accessKey, secret string) error {
 	helper.accessKey = accessKey
 	helper.secret = secret
