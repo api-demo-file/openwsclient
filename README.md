@@ -2,8 +2,9 @@
 
 长连接客户端      
 
-包名 package name   
-   
+包名    
+github.com/api-demo-file/openwsclient   
+
 ## 使用方法    
 
 client 包：基础包，提供最基础连接，断线重连机制   
